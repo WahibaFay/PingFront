@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 .general {
     display: flex;
 }
@@ -5,11 +10,13 @@
 .sous-general {
     width:100%;
     height:100vh;
-    // background-color: blanchedalmond;
     display: flex;
     justify-content: center;
     align-items: center;
-
+}
+.title{
+    display: flex;
+    flex-direction: column;
 }
 
 .ping {
@@ -18,8 +25,7 @@
     align-items: center;
     color: blue;
     height:80vh;
-    background-color:paleturquoise;
-    width:60%;
+    width:100%;
 	overflow-x: hidden;
     overflow-y: scroll;
 }
