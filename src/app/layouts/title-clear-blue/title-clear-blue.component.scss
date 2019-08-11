@@ -1,6 +1,7 @@
 /************************* GÉNÉRAL *******************/
 
 * {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,9 +18,17 @@
   /************************* Title*******************/
 
 .title-company {
+=======
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-title {
+>>>>>>> master
   display: flex;
-  text-align: center;
+  flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
   background-color:  #E9F6FF ;
   width: 450px;
   height: 80px;
@@ -32,4 +41,29 @@ h3 {
   display: flex;
   text-align: center;
   color:   #60A4FF;
+=======
+  align-items: center;
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+  padding:20px;
+}
+/************************* Title*******************/
+
+.title-company {
+display: flex;
+text-align: center;
+justify-content: center;
+background-color:  #E9F6FF ;
+width: 450px;
+height: 80px;
+padding: 10px;
+margin: 10%;
+}
+
+h3 {
+padding-top: 15px;
+display: flex;
+text-align: center;
+color:   #60A4FF;
+>>>>>>> master
 }
